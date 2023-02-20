@@ -4,21 +4,23 @@
 
 h1 {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 48px;
     margin: 0 0 16px 0;
 }
 
 a {
     text-decoration: none;
     color: black;
+    font-size: 24px;
 }
 
 p {
     color: #979797;
     margin: 0 0 16px 0;
+    font-size: 24px;
 }
 
-/* .btn {
+.btn {
     background-color: #FFC108;
     color: white;
     padding: 8px 24px;
@@ -27,20 +29,13 @@ p {
 .btn-alt {
     background-color: white;
     color: black;
-    margin-right: 12px;
+    margin-right: 16px;
     border: 2px solid #FFC108;
-} */
-
-.btn {
-    background-color: white;
-    color: black;
-    border: 2px solid #FFC108;
-    padding: 8px 24px;
 }
 
-.btn + .btn {
-    background-color: #FFC108;
-    color: white;
+#header {
+    display: flex;
+    align-items: center;
 }
 
 .landing p {
