@@ -91,7 +91,7 @@
 //     console.log("Kondisi seluruh if salah")
 // }
 
-let var1 = 10, var2 = "10"
+// let var1 = 10, var2 = "10"
 
 // if (var1 == var2) {
 //     console.log("if 1 benar")
@@ -111,12 +111,26 @@ let var1 = 10, var2 = "10"
 //     console.log("If 2 benar")
 // }
 
-let var3 = 25, var4 = 25
+// let var3 = 25, var4 = 25
 
-if (var3 >= var4) {
-    console.log("If 1 benar")
+// if (var3 >= var4) {
+//     console.log("If 1 benar")
+// }
+
+// if (var3 <= var4) {
+//     console.log("If 2 benar")
+// }
+
+let var1 = 10, var2 = 30
+
+if (10 > 30) {
+    console.log("if benar")
+} else {
+    console.log("if salah")
 }
 
-if (var3 <= var4) {
-    console.log("If 2 benar")
+if (var2 > 10 || var2 < 10) {
+    console.log("if && benar")
+} else {
+    console.log("if && salah")
 }
