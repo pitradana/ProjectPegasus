@@ -1,0 +1,12 @@
+/* .btn-primary {
+    background-color: aqua;
+}
+
+.btn {
+    border-radius: 0;
+} */
+
+.my-button {
+    border-radius: 0;
+    background-color: aqua;
+}
