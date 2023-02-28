@@ -37,7 +37,11 @@ section::before {
     font-size: 48px;
 }
 
-.home.arrow img{
+.home img {
+    width: 100%;
+}
+
+.home .arrow img{
     width: 60px;
 }
 
@@ -121,6 +125,41 @@ section::before {
 
 #work-3:hover::after {
     content: 'Data Scientist';
+}
+
+.contact {
+    padding-bottom: 128px;
+}
+
+.contact::before {
+    content: 'Contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.contact-form input {
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .home img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    section::before {
+        left: -10px;
+        font-size: 64px;
+    }
 }
 
 @keyframes upDown {
